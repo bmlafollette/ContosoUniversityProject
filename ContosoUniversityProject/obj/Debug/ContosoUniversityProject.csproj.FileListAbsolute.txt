@@ -42,3 +42,7 @@ C:\Users\Bobbie\Desktop\ElevenFifty\VisualStudio\ContosoUniversityProject\Contos
 C:\Users\Bobbie\Desktop\ElevenFifty\VisualStudio\ContosoUniversityProject\ContosoUniversityProject\bin\EntityFramework.SqlServer.dll
 C:\Users\Bobbie\Desktop\ElevenFifty\VisualStudio\ContosoUniversityProject\ContosoUniversityProject\bin\EntityFramework.xml
 C:\Users\Bobbie\Desktop\ElevenFifty\VisualStudio\ContosoUniversityProject\ContosoUniversityProject\bin\EntityFramework.SqlServer.xml
+C:\Users\Bobbie\Desktop\ElevenFifty\VisualStudio\ContosoUniversityProject\ContosoUniversityProject\bin\PagedList.dll
+C:\Users\Bobbie\Desktop\ElevenFifty\VisualStudio\ContosoUniversityProject\ContosoUniversityProject\bin\PagedList.Mvc.dll
+C:\Users\Bobbie\Desktop\ElevenFifty\VisualStudio\ContosoUniversityProject\ContosoUniversityProject\bin\PagedList.xml
+C:\Users\Bobbie\Desktop\ElevenFifty\VisualStudio\ContosoUniversityProject\ContosoUniversityProject\bin\PagedList.Mvc.xml

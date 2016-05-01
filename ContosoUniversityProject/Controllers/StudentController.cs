@@ -8,6 +8,7 @@ using System.Web;
 using System.Web.Mvc;
 using ContosoUniversityProject.DAL;
 using ContosoUniversityProject.Models;
+using PagedList;
 
 namespace ContosoUniversityProject.Controllers
 {
@@ -16,9 +17,62 @@ namespace ContosoUniversityProject.Controllers
         private SchoolContext db = new SchoolContext();
 
         // GET: Student
-        public ActionResult Index()
+        public ActionResult Index(string sortOrder, string currentFilter, string searchString, int? page)
         {
-            return View(db.Students.ToList());
+            // These are ternary statements. The first one specifies that if the sortOrder parameter
+            // is null or empty, ViewBag.NameSortParm should be set to "name_desc"; otherwise,
+            // it should be set to an empty string.
+            // The method uses LINQ to Entities to specify the column to sort by.
+            ViewBag.CurrentSort = sortOrder;
+            ViewBag.NameSortParm = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
+            // The code creates an IQueryable variable before the switch statement, modifies it in the
+            // switch statement, and calls the ToList method after the switch statement.
+            // When you create and modify IQueryable variables, no query is sent to the database.
+            // The query is not executed until you convert the IQueryable object into a collection by
+            // calling a method such as ToList.
+            ViewBag.DateSortParm = sortOrder == "Date" ? "date_desc" : "Date";
+
+            if (searchString != null)
+            {
+                page = 1;
+            }
+            else
+            {
+                searchString = currentFilter;
+            }
+
+            ViewBag.CurrentFilter = searchString;
+
+            var students = from s in db.Students
+                           select s;
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                students = students.Where(s => s.LastName.Contains(searchString)
+                                       || s.FirstMidName.Contains(searchString));
+            }
+            switch (sortOrder)
+            {
+                case "name_desc":
+                    students = students.OrderByDescending(s => s.LastName);
+                    break;
+                case "Date":
+                    students = students.OrderBy(s => s.EnrollmentDate);
+                    break;
+                case "date_desc":
+                    students = students.OrderByDescending(s => s.EnrollmentDate);
+                    break;
+                default:
+                    students = students.OrderBy(s => s.LastName);
+                    break;
+            }
+
+            // The two question marks represent the null-coalescing operator.
+            // The null-coalescing operator defines a default value for a nullable type;
+            // the expression (page ?? 1) means return the value of page if it has a value,
+            // or return 1 if page is null.
+            int pageSize = 3;
+            int pageNumber = (page ?? 1);
+            return View(students.ToPagedList(pageNumber, pageSize));
         }
 
         // GET: Student/Details/5
