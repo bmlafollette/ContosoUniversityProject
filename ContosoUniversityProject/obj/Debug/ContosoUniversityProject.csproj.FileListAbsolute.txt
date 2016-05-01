@@ -38,3 +38,7 @@ C:\Users\Bobbie\Desktop\ElevenFifty\VisualStudio\ContosoUniversityProject\Contos
 C:\Users\Bobbie\Desktop\ElevenFifty\VisualStudio\ContosoUniversityProject\ContosoUniversityProject\obj\Debug\ContosoUniversityProject.csprojResolveAssemblyReference.cache
 C:\Users\Bobbie\Desktop\ElevenFifty\VisualStudio\ContosoUniversityProject\ContosoUniversityProject\obj\Debug\ContosoUniversityProject.dll
 C:\Users\Bobbie\Desktop\ElevenFifty\VisualStudio\ContosoUniversityProject\ContosoUniversityProject\obj\Debug\ContosoUniversityProject.pdb
+C:\Users\Bobbie\Desktop\ElevenFifty\VisualStudio\ContosoUniversityProject\ContosoUniversityProject\bin\EntityFramework.dll
+C:\Users\Bobbie\Desktop\ElevenFifty\VisualStudio\ContosoUniversityProject\ContosoUniversityProject\bin\EntityFramework.SqlServer.dll
+C:\Users\Bobbie\Desktop\ElevenFifty\VisualStudio\ContosoUniversityProject\ContosoUniversityProject\bin\EntityFramework.xml
+C:\Users\Bobbie\Desktop\ElevenFifty\VisualStudio\ContosoUniversityProject\ContosoUniversityProject\bin\EntityFramework.SqlServer.xml
