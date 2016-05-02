@@ -52,3 +52,4 @@ C:\Users\Bobbie\Desktop\ElevenFifty\VisualStudio\ContosoUniversityProject\Contos
 C:\Users\Bobbie\Desktop\ElevenFifty\VisualStudio\ContosoUniversityProject\ContosoUniversityProject\obj\Debug\ContosoUniversityProject.Migrations.ColumnFirstName.resources
 C:\Users\Bobbie\Desktop\ElevenFifty\VisualStudio\ContosoUniversityProject\ContosoUniversityProject\obj\Debug\ContosoUniversityProject.Migrations.ComplexDataModel.resources
 C:\Users\Bobbie\Desktop\ElevenFifty\VisualStudio\ContosoUniversityProject\ContosoUniversityProject\obj\Debug\ContosoUniversityProject.Migrations.DepartmentSP.resources
+C:\Users\Bobbie\Desktop\ElevenFifty\VisualStudio\ContosoUniversityProject\ContosoUniversityProject\obj\Debug\ContosoUniversityProject.Migrations.RowVersion.resources
