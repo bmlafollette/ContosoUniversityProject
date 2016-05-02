@@ -46,3 +46,5 @@ C:\Users\Bobbie\Desktop\ElevenFifty\VisualStudio\ContosoUniversityProject\Contos
 C:\Users\Bobbie\Desktop\ElevenFifty\VisualStudio\ContosoUniversityProject\ContosoUniversityProject\bin\PagedList.Mvc.dll
 C:\Users\Bobbie\Desktop\ElevenFifty\VisualStudio\ContosoUniversityProject\ContosoUniversityProject\bin\PagedList.xml
 C:\Users\Bobbie\Desktop\ElevenFifty\VisualStudio\ContosoUniversityProject\ContosoUniversityProject\bin\PagedList.Mvc.xml
+C:\Users\Bobbie\Desktop\ElevenFifty\VisualStudio\ContosoUniversityProject\ContosoUniversityProject\obj\Debug\ContosoUniversityProject.Migrations.InitialCreate.resources
+C:\Users\Bobbie\Desktop\ElevenFifty\VisualStudio\ContosoUniversityProject\ContosoUniversityProject\obj\Debug\ContosoUniversityProject.csproj.GenerateResource.Cache
