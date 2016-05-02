@@ -48,3 +48,6 @@ C:\Users\Bobbie\Desktop\ElevenFifty\VisualStudio\ContosoUniversityProject\Contos
 C:\Users\Bobbie\Desktop\ElevenFifty\VisualStudio\ContosoUniversityProject\ContosoUniversityProject\bin\PagedList.Mvc.xml
 C:\Users\Bobbie\Desktop\ElevenFifty\VisualStudio\ContosoUniversityProject\ContosoUniversityProject\obj\Debug\ContosoUniversityProject.Migrations.InitialCreate.resources
 C:\Users\Bobbie\Desktop\ElevenFifty\VisualStudio\ContosoUniversityProject\ContosoUniversityProject\obj\Debug\ContosoUniversityProject.csproj.GenerateResource.Cache
+C:\Users\Bobbie\Desktop\ElevenFifty\VisualStudio\ContosoUniversityProject\ContosoUniversityProject\obj\Debug\ContosoUniversityProject.Migrations.MaxLengthOnNames.resources
+C:\Users\Bobbie\Desktop\ElevenFifty\VisualStudio\ContosoUniversityProject\ContosoUniversityProject\obj\Debug\ContosoUniversityProject.Migrations.ColumnFirstName.resources
+C:\Users\Bobbie\Desktop\ElevenFifty\VisualStudio\ContosoUniversityProject\ContosoUniversityProject\obj\Debug\ContosoUniversityProject.Migrations.ComplexDataModel.resources

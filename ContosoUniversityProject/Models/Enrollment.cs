@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.ComponentModel.DataAnnotations;
 
 namespace ContosoUniversityProject.Models
 {
@@ -17,6 +18,7 @@ namespace ContosoUniversityProject.Models
         public int CourseID { get; set; }
         // A foreign key with a corresponding navigation property below.
         public int StudentID { get; set; }
+        [DisplayFormat(NullDisplayText = "No grade")]
         public Grade? Grade { get; set; }
 
         // Below are navigation properties.
