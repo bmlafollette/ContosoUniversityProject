@@ -10,7 +10,6 @@ namespace ContosoUniversityProject.DAL
 {
     public class SchoolContext : DbContext
     {
-
         // This is the connection string.
         public SchoolContext() : base("SchoolContext")
         {
@@ -23,6 +22,7 @@ namespace ContosoUniversityProject.DAL
         public DbSet<Department> Departments { get; set; }
         public DbSet<Instructor> Instructors { get; set; }
         public DbSet<OfficeAssignment> OfficeAssignments { get; set; }
+        public DbSet<Person> People { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
